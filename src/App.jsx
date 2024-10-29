@@ -72,7 +72,7 @@ function App() {
         disabled={displayWpm !== null} 
         className="input"
       />
-      {displayWpm !== null && <p className="result">Your WPM: {displayWpm}</p>}
+      {displayWpm !== null && <p className="result">You typed at : {displayWpm}</p>}
       {displayMessage && <p className="message">{displayMessage}</p>}
       <button onClick={generateSentence} className="button">
         Reset
